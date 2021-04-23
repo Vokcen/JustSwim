@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes 1/Main.unity
+    path: Assets/Scenes/Main.unity
     guid: 3d351cf55287a2d4e96502e7c70d34e6
   - enabled: 1
-    path: Assets/Scenes 1/Baslangic.unity
+    path: Assets/Scenes/Baslangic.unity
     guid: 00edcc0421f8f9b4fa96d6e8b4870c4d
   - enabled: 1
-    path: Assets/Scenes 1/Eglence.unity
+    path: Assets/Scenes/Eglence.unity
     guid: b6751731c2ff5304f96c606bd87bd5e3
   m_configObjects: {}

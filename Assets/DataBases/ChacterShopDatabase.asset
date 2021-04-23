@@ -41,59 +41,59 @@ MonoBehaviour:
     name: Pof
     speed: 36.2
     power: 8.1
-    price: 489
+    price: 550
     isPurchased: 0
   - image: {fileID: 21300010, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
     name: Saftirik
     speed: 6.1
     power: 3
-    price: 600
+    price: 500
     isPurchased: 0
   - image: {fileID: 21300012, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
     name: 'Asalak '
     speed: 5.7
     power: 5.2
-    price: 79000
+    price: 600
     isPurchased: 0
   - image: {fileID: 21300014, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
     name: Lone
     speed: 51
     power: 45.5
-    price: 2700
+    price: 1000
     isPurchased: 0
   - image: {fileID: 21300016, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
     name: Cure
     speed: 74.3
     power: 64.3
-    price: 9800
+    price: 1500
     isPurchased: 0
   - image: {fileID: 21300018, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
     name: Slime
     speed: 81.9
     power: 68.9
-    price: 99000
+    price: 2000
     isPurchased: 0
   - image: {fileID: 21300020, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
     name: POWER OF MOM
     speed: 84.4
     power: 78.4
-    price: 110000
+    price: 2700
     isPurchased: 0
   - image: {fileID: 21300022, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
     name: Pofuduk
     speed: 85.4
     power: 78.4
-    price: 150000
+    price: 3800
     isPurchased: 0
   - image: {fileID: 21300024, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
     name: Fenerli
     speed: 100
     power: 100
-    price: 121100
+    price: 6100
     isPurchased: 0
   - image: {fileID: 21300026, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
     name: "Cimbo\u015F"
     speed: 100
     power: 100
-    price: 18890
+    price: 6100
     isPurchased: 0
