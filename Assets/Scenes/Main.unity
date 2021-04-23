@@ -786,7 +786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.4627451}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.43137255}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6180,7 +6180,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.98100007, y: 0}
   m_AnchorMax: {x: 0.98100007, y: 0}
-  m_AnchoredPosition: {x: -141.92993, y: 74.60001}
+  m_AnchoredPosition: {x: -141.92993, y: 74.60002}
   m_SizeDelta: {x: 281.27002, y: 86.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &914195631
@@ -8150,7 +8150,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100.4
+  m_fontSize: 108.05
   m_fontSizeBase: 0
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -8368,8 +8368,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00024414062}
-  m_SizeDelta: {x: 0, y: -0.00012207}
+  m_AnchoredPosition: {x: 0, y: 68.246}
+  m_SizeDelta: {x: 0, y: -136.4873}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1966045381
 MonoBehaviour:
@@ -8666,7 +8666,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Yeterli Paran\u0131z Bulunmamaktad\u0131r!!"
+  m_text: Paran yok olmm!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cd03ff4f207f03a4698e557ad1470f45, type: 2}
   m_sharedMaterial: {fileID: -9075456544626509500, guid: cd03ff4f207f03a4698e557ad1470f45,

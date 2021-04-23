@@ -34,8 +34,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -105,7 +103,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11364}
     - Class: 114
       Script: {instanceID: 11388}
     - Class: 114
@@ -224,7 +222,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11364}
     - Class: 114
       Script: {instanceID: 11388}
     - Class: 114
@@ -325,7 +323,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11364}
     - Class: 114
       Script: {instanceID: 11388}
     - Class: 114
@@ -375,7 +373,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15028}
     - Class: 114
-      Script: {instanceID: 15764}
+      Script: {instanceID: 15758}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1158,4 +1156,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes 1/Main.unity
   - Assets/Scenes 1/Baslangic.unity
   - Assets/Scenes 1/Eglence.unity
-  playerPath: C:/Users/Okcen/Desktop/Son.apk
+  playerPath: C:/Users/Okcen/Desktop/aqudaDance.apk

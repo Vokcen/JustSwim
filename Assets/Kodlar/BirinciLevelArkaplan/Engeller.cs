@@ -32,7 +32,7 @@ public class Engeller : MonoBehaviour
         Time.timeScale = 1;
         yüksekSkor = PlayerPrefs.GetInt("YüksekSkor", 0);
         ripple = Camera.main.GetComponent<RipplePostProccessor>();
-        YüksekSkorYazisi.text = "YüksekSkor:" + yüksekSkor.ToString();
+        YüksekSkorYazisi.text = "YüksekSkor" + yüksekSkor.ToString();
 
       
     }
