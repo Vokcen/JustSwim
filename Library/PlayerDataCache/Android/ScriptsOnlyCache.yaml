@@ -30,10 +30,10 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -46,9 +46,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEngine.Advertisements.dll:
-    - UnityEngine.Advertisements.Placeholder
-    - UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -63,7 +60,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes 1/Baslangic.unity:
+    Assets/Scenes/Baslangic.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -182,7 +179,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes 1/Eglence.unity:
+    Assets/Scenes/Eglence.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -299,7 +296,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes 1/Main.unity:
+    Assets/Scenes/Main.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -373,7 +370,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15028}
     - Class: 114
-      Script: {instanceID: 15758}
+      Script: {instanceID: 18334}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1153,7 +1150,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Scenes 1/Main.unity
-  - Assets/Scenes 1/Baslangic.unity
-  - Assets/Scenes 1/Eglence.unity
-  playerPath: C:/Users/Okcen/Desktop/aqudaDance.apk
+  - Assets/Scenes/Main.unity
+  - Assets/Scenes/Baslangic.unity
+  - Assets/Scenes/Eglence.unity
+  playerPath: C:/Users/Okcen/Desktop/AquaDance.apk

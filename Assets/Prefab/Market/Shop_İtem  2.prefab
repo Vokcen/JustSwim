@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 223, y: 14}
+  m_AnchoredPosition: {x: 133, y: 14}
   m_SizeDelta: {x: 369.04, y: 105.89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6846345382213154018
@@ -60,7 +60,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -136,7 +135,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -226,7 +224,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -234,7 +231,8 @@ MonoBehaviour:
   m_text: Chacter Name
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cd03ff4f207f03a4698e557ad1470f45, type: 2}
-  m_sharedMaterial: {fileID: -9075456544626509500, guid: cd03ff4f207f03a4698e557ad1470f45, type: 2}
+  m_sharedMaterial: {fileID: -9075456544626509500, guid: cd03ff4f207f03a4698e557ad1470f45,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -365,7 +363,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9339623, g: 0.8408268, b: 0.15331075, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -394,7 +391,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -514,7 +510,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.35065857, g: 0.91550267, b: 0.9433962, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -589,7 +584,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -597,7 +591,8 @@ MonoBehaviour:
   m_text: 250
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cd03ff4f207f03a4698e557ad1470f45, type: 2}
-  m_sharedMaterial: {fileID: -9075456544626509500, guid: cd03ff4f207f03a4698e557ad1470f45, type: 2}
+  m_sharedMaterial: {fileID: -9075456544626509500, guid: cd03ff4f207f03a4698e557ad1470f45,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -728,7 +723,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.20559417, g: 0.19215687, b: 0.23529412, a: 0.9647059}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -757,7 +751,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -885,7 +878,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -893,7 +885,8 @@ MonoBehaviour:
   m_text: Etkileyicilik
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cd03ff4f207f03a4698e557ad1470f45, type: 2}
-  m_sharedMaterial: {fileID: -9075456544626509500, guid: cd03ff4f207f03a4698e557ad1470f45, type: 2}
+  m_sharedMaterial: {fileID: -9075456544626509500, guid: cd03ff4f207f03a4698e557ad1470f45,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1020,7 +1013,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.084905684, g: 0, b: 0, a: 0.6627451}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1095,7 +1087,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1103,7 +1094,8 @@ MonoBehaviour:
   m_text: "Saglaml\u0131k"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cd03ff4f207f03a4698e557ad1470f45, type: 2}
-  m_sharedMaterial: {fileID: -9075456544626509500, guid: cd03ff4f207f03a4698e557ad1470f45, type: 2}
+  m_sharedMaterial: {fileID: -9075456544626509500, guid: cd03ff4f207f03a4698e557ad1470f45,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1229,7 +1221,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0, b: 0.15828133, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1281,7 +1272,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -266.64996, y: -1.710083}
+  m_AnchoredPosition: {x: -266.6499, y: -1.710083}
   m_SizeDelta: {x: 550.47, y: -16.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6846345383943171440
@@ -1353,7 +1344,6 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.084905684, g: 0, b: 0, a: 0.6627451}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

@@ -20,19 +20,19 @@ MonoBehaviour:
     price: 350
     isPurchased: 1
   - image: {fileID: 21300002, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: Casper
+    name: Astro
     speed: 5.4
     power: 4.1
     price: 250
     isPurchased: 0
   - image: {fileID: 21300004, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: "TekG\xF6z"
+    name: One-Eyed Monster
     speed: 8.4
     power: 4.5
     price: 369
     isPurchased: 0
   - image: {fileID: 21300006, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: Amip
+    name: Amoeba
     speed: 11.1
     power: 22.2
     price: 400
@@ -44,13 +44,13 @@ MonoBehaviour:
     price: 489
     isPurchased: 0
   - image: {fileID: 21300010, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: Saftirik
+    name: Gin
     speed: 6.1
     power: 3
     price: 600
     isPurchased: 0
   - image: {fileID: 21300012, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: 'Asalak '
+    name: Stupid
     speed: 5.7
     power: 5.2
     price: 79000
@@ -74,25 +74,25 @@ MonoBehaviour:
     price: 99000
     isPurchased: 0
   - image: {fileID: 21300020, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: POWER OF MOM
+    name: Potato
     speed: 84.4
     power: 78.4
     price: 110000
     isPurchased: 0
   - image: {fileID: 21300022, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: Pofuduk
+    name: Pink
     speed: 85.4
     power: 78.4
     price: 150000
     isPurchased: 0
   - image: {fileID: 21300024, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: Fenerli
+    name: Elephant
     speed: 100
     power: 100
     price: 121100
     isPurchased: 0
   - image: {fileID: 21300026, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: "Cimbo\u015F"
+    name: Boss
     speed: 100
     power: 100
     price: 18890
