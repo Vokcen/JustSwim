@@ -13,87 +13,69 @@ MonoBehaviour:
   m_Name: ChacterShopDatabase
   m_EditorClassIdentifier: 
   chacters:
-  - image: {fileID: 21300000, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+  - image: {fileID: 21300000, guid: b712304f004be9948940072d57c90cc8, type: 3}
     name: Frog
     speed: 5.1
     power: 2.4
     price: 350
     isPurchased: 1
-  - image: {fileID: 21300002, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+  - image: {fileID: 21300000, guid: 21ec3e5d3639b2e4f942acad899cd4c3, type: 3}
     name: Astro
     speed: 5.4
     power: 4.1
     price: 250
     isPurchased: 0
-  - image: {fileID: 21300004, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+  - image: {fileID: 21300000, guid: 6faef542f36002e498890764b29f8bf1, type: 3}
     name: One-Eyed Monster
     speed: 8.4
     power: 4.5
     price: 369
     isPurchased: 0
-  - image: {fileID: 21300006, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+  - image: {fileID: 21300000, guid: a803eab36c67f954eb34d4012b5dafdc, type: 3}
     name: Amoeba
     speed: 11.1
     power: 22.2
     price: 400
     isPurchased: 0
-  - image: {fileID: 21300008, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+  - image: {fileID: 21300000, guid: 7abbdb162199b524781f4f75fa779cb1, type: 3}
     name: Pof
     speed: 36.2
     power: 8.1
     price: 489
     isPurchased: 0
-  - image: {fileID: 21300010, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+  - image: {fileID: 21300000, guid: 3c4b5cc1817119449a202d07375495eb, type: 3}
     name: Gin
     speed: 6.1
     power: 3
     price: 600
     isPurchased: 0
-  - image: {fileID: 21300012, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+  - image: {fileID: 21300000, guid: d679891dae11b284a86dad2ce8a2c123, type: 3}
     name: Stupid
     speed: 5.7
     power: 5.2
     price: 79000
     isPurchased: 0
-  - image: {fileID: 21300014, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+  - image: {fileID: 21300000, guid: 9783db040ccbde54c8997f6e652ba349, type: 3}
     name: Lone
     speed: 51
     power: 45.5
     price: 2700
     isPurchased: 0
-  - image: {fileID: 21300016, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+  - image: {fileID: 21300000, guid: 67ec9bfff0813534f8054b618c03ff5d, type: 3}
     name: Cure
     speed: 74.3
     power: 64.3
     price: 9800
     isPurchased: 0
-  - image: {fileID: 21300018, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
+  - image: {fileID: 21300000, guid: b50767ac8ccfbfa49a26fd91c52df268, type: 3}
     name: Slime
     speed: 81.9
     power: 68.9
     price: 99000
     isPurchased: 0
-  - image: {fileID: 21300020, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: Potato
-    speed: 84.4
-    power: 78.4
-    price: 110000
-    isPurchased: 0
-  - image: {fileID: 21300022, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: Pink
-    speed: 85.4
-    power: 78.4
-    price: 150000
-    isPurchased: 0
-  - image: {fileID: 21300024, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: Elephant
-    speed: 100
-    power: 100
-    price: 121100
-    isPurchased: 0
-  - image: {fileID: 21300026, guid: 6e980baa502e72148bbc79fb42c81d10, type: 3}
-    name: Boss
-    speed: 100
-    power: 100
-    price: 18890
+  - image: {fileID: 21300000, guid: 8f0a9fdfec577444aad25bc4b941d1c6, type: 3}
+    name: Slime
+    speed: 81.9
+    power: 68.9
+    price: 99000
     isPurchased: 0
