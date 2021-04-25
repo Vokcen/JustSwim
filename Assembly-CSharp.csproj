@@ -64,33 +64,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BinarySerializer\BinarySerializer.cs" />
-    <Compile Include="Assets\Kodlar\Balıklar.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\CamZoom.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\Duraklatma.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\Düsman.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\Engeller.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\Finger.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\Hak.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\Kaliteayarı.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\Karakter.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\KöseHareket.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\MusicDegisim.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\OyunKontrol.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\Oyunkontrolü.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\Panel.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\Paraa.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\Puan.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\PuanSpawn.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\RewardedAD.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\RipplePostProccessor.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\SesKontrol.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\SolKöse.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\SpawnKontrolA.cs" />
-    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\Zemin.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\GameControl\Kaliteayarı.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\GameControl\KöseHareket.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\GameControl\MusicDegisim.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\GameControl\OyunKontrol.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\GameControl\Oyunkontrolü.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\GameControl\Panel.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\GameControl\SolKöse.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\GameControl\SpawnKontrolA.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\GameManager\Finger.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\GameManager\Hak.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\MainCharacter\CamZoom.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\MainCharacter\Duraklatma.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\MainCharacter\Düsman.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\MainCharacter\Engeller.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\MainCharacter\Puan.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\MainCharacter\PuanSpawn.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\MainCharacter\RewardedAD.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\MainCharacter\RipplePostProccessor.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\MainCharacter\SesKontrol.cs" />
+    <Compile Include="Assets\Kodlar\BirinciLevelArkaplan\MainCharacter\Zemin.cs" />
     <Compile Include="Assets\Kodlar\Ekran.cs" />
-    <Compile Include="Assets\Kodlar\MarketBolum\ButtonExtension.cs" />
-    <Compile Include="Assets\Kodlar\MarketBolum\Game.cs" />
-    <Compile Include="Assets\Kodlar\MarketBolum\Market.cs" />
     <Compile Include="Assets\Kodlar\Menu.cs" />
     <Compile Include="Assets\Kodlar\Reklam.cs" />
     <Compile Include="Assets\Kodlar\Shop\Chacter.cs" />
@@ -103,7 +97,6 @@
     <Compile Include="Assets\Kodlar\Shop\SceneController.cs" />
     <Compile Include="Assets\Kodlar\YenidenOynanıs.cs" />
     <Compile Include="Assets\Kodlar\YuksekSkor\YuksekSkor.cs" />
-    <Compile Include="Assets\Kodlar\cogaltma.cs" />
     <Compile Include="Assets\Kodlar\Çözünürlük.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -682,9 +675,6 @@
     <Reference Include="Unity.2D.Path.Editor">
       <HintPath>C:/Users/Okcen/Desktop/PRojem/JustSwim/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.DeviceSimulator.Tests.Common">
-      <HintPath>C:/Users/Okcen/Desktop/PRojem/JustSwim/Library/ScriptAssemblies/Unity.DeviceSimulator.Tests.Common.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/Okcen/Desktop/PRojem/JustSwim/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -705,9 +695,6 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/Okcen/Desktop/PRojem/JustSwim/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.DeviceSimulator.Editor">
-      <HintPath>C:/Users/Okcen/Desktop/PRojem/JustSwim/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>C:/Users/Okcen/Desktop/PRojem/JustSwim/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
