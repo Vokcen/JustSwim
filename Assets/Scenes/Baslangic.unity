@@ -604,7 +604,7 @@ GameObject:
   - component: {fileID: 141001541}
   - component: {fileID: 141001542}
   m_Layer: 0
-  m_Name: Spawnpint3 (1)
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -618,11 +618,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 141001540}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.69, y: 29.48, z: 1.2449023}
+  m_LocalPosition: {x: 1.6800001, y: 29.810001, z: 1.2449023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 255396817}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &141001542
 SpriteRenderer:
@@ -796,10 +796,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2048496255}
-  - {fileID: 977436368}
   - {fileID: 141001541}
   - {fileID: 2074499947}
   - {fileID: 2077399243}
+  - {fileID: 977436368}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1173,7 +1173,7 @@ GameObject:
   - component: {fileID: 456796456}
   - component: {fileID: 456796455}
   m_Layer: 0
-  m_Name: SpawnKontrol (1)
+  m_Name: Dalga2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1197,12 +1197,7 @@ MonoBehaviour:
   - {fileID: 141001541}
   - {fileID: 2074499947}
   - {fileID: 2077399243}
-  "d\xFCsmanlar":
-  - {fileID: 5604705117109219513, guid: 8642e5eb487970a41b8d7f934355103d, type: 3}
-  - {fileID: 4833086258020932505, guid: 420a4b5e90e2ee6439e995f58c3c9582, type: 3}
-  - {fileID: 6605174495234773309, guid: fc8b45526861a6241b5372eb5227b883, type: 3}
-  - {fileID: 5451924166339419266, guid: 1e4c7402d35d32948981aec4ea26df73, type: 3}
-  - {fileID: 6729243776627543700, guid: 6bb3051da69a29e4c98afd86ad983076, type: 3}
+  "d\xFCsmanlar": []
 --- !u!4 &456796456
 Transform:
   m_ObjectHideFlags: 0
@@ -2803,7 +2798,7 @@ GameObject:
   - component: {fileID: 977436368}
   - component: {fileID: 977436369}
   m_Layer: 0
-  m_Name: Spawnpint 3
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2817,11 +2812,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977436367}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.37, y: 19.82, z: 1.2449023}
+  m_LocalPosition: {x: 10.22, y: 29.63, z: 1.2449023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 255396817}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &977436369
 SpriteRenderer:
@@ -5893,7 +5888,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -58, y: -349.3}
+  m_AnchoredPosition: {x: -58, y: -349.30005}
   m_SizeDelta: {x: 324.4817, y: 281.39935}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1743005619
@@ -6028,7 +6023,7 @@ GameObject:
   - component: {fileID: 1769207701}
   - component: {fileID: 1769207702}
   m_Layer: 0
-  m_Name: SpawnKontrol
+  m_Name: Dalga1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6066,10 +6061,14 @@ MonoBehaviour:
   - {fileID: 1351806852}
   - {fileID: 1564680766}
   "d\xFCsmanlar":
+  - {fileID: 5604705117109219513, guid: 8642e5eb487970a41b8d7f934355103d, type: 3}
+  - {fileID: 4833086258020932505, guid: 420a4b5e90e2ee6439e995f58c3c9582, type: 3}
   - {fileID: 2429541727206453588, guid: d839dad9f11004f4b8316dbafd129052, type: 3}
   - {fileID: 2109089953123342753, guid: f2298216c5e1eb243962cb01a3f90357, type: 3}
   - {fileID: 7462800241296653736, guid: ec1f27537568285418aca94676bc6399, type: 3}
   - {fileID: 8747641636267189953, guid: 6e355c26bc866b1438dc7caf816b3615, type: 3}
+  - {fileID: 6605174495234773309, guid: fc8b45526861a6241b5372eb5227b883, type: 3}
+  - {fileID: 5451924166339419266, guid: 1e4c7402d35d32948981aec4ea26df73, type: 3}
   - {fileID: 4522185473438596468, guid: 71f4d95db5a946740b7df6b7b40ad0cb, type: 3}
   - {fileID: 1362359115243316930, guid: 9a06bfbd03f67e046b3b2cff360df5e9, type: 3}
 --- !u!1 &1774077968
@@ -6510,7 +6509,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895195946}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.18, y: 21.11, z: -1.4123038}
+  m_LocalPosition: {x: 7, y: 23, z: -1.4123038}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7471,7 +7470,7 @@ GameObject:
   - component: {fileID: 2048496255}
   - component: {fileID: 2048496256}
   m_Layer: 0
-  m_Name: Spawnpint3
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7485,7 +7484,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048496254}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.77, y: 20.3, z: 1.2449023}
+  m_LocalPosition: {x: -1.78, y: 28.63, z: 1.2449023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 255396817}
@@ -7645,7 +7644,7 @@ GameObject:
   - component: {fileID: 2074499947}
   - component: {fileID: 2074499948}
   m_Layer: 0
-  m_Name: Spawnpint3 (2)
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7659,11 +7658,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074499946}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.7, y: 29.53, z: 1.2449023}
+  m_LocalPosition: {x: 3.69, y: 29.860003, z: 1.2449023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 255396817}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2074499948
 SpriteRenderer:
@@ -7726,7 +7725,7 @@ GameObject:
   - component: {fileID: 2077399243}
   - component: {fileID: 2077399244}
   m_Layer: 0
-  m_Name: Spawnpint3 (3)
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7740,11 +7739,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077399242}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.56, y: 29.72, z: 1.2449023}
+  m_LocalPosition: {x: 5.55, y: 30.050001, z: 1.2449023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 255396817}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2077399244
 SpriteRenderer:
