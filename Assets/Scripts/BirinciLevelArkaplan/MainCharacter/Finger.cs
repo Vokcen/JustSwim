@@ -12,16 +12,16 @@ public class Finger : MonoBehaviour
     private Rigidbody2D rb;
     private Vector3 Direction;
     public float movespeed = 10f;
-    public GameObject Paraefekt;
+  
     private Vector3 ScaleChange;
-    public AudioSource pses;
+ 
     private void Awake()
     {
         ScaleChange = new Vector3(1f, 1f, 1f);
     }
     void Start()
     {
-        pses = GetComponent<AudioSource>();
+       
 
         rb = GetComponent<Rigidbody2D>();
         ChangePlayerSkin();
@@ -73,25 +73,5 @@ public class Finger : MonoBehaviour
 
 
     }
-    void OnCollisionEnter2D(Collision2D other)
-    {
-        
-        if (other.gameObject.tag=="Coin")
-        //Coin ekler
-        {
-            GameDataManager.AddCoins(24);
-            GameSharedUI.Instance.UpdateCoinsUIText();
-            pses.Play();
-                StartCoroutine(WaitBefore());
-            Destroy(other.gameObject);
-        }
-
-    }
-    IEnumerator WaitBefore()
-    {
-        Instantiate(Paraefekt, transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(0.1f);
-        Debug.Log("çalýþtý");   
-
-    }
+    
 }

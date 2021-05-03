@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameControl\SpawnKontrolA.cs" />
     <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameControl\WaweThree.cs" />
     <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameManager\CamZoom.cs" />
+    <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameManager\Coin.cs" />
     <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameManager\Duraklatma.cs" />
     <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameManager\Düsman.cs" />
     <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameManager\Engeller.cs" />
