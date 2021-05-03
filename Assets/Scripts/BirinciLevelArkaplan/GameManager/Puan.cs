@@ -49,7 +49,7 @@ public class Puan : MonoBehaviour
         ani.enabled = true;
         a.Play();
          Instantiate(efekt, transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
         Destroy(this.gameObject);
 
     }

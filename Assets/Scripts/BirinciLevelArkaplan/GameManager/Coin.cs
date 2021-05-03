@@ -33,10 +33,10 @@ public class Coin : MonoBehaviour
         }
 
     }
-    IEnumerator WaitBefore()
+    IEnumerator WaitBefore()    
     {
         Instantiate(efekt, transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.2f);
         Destroy(this.gameObject);
 
     }

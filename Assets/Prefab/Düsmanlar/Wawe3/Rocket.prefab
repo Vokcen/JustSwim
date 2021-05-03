@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 8814869591792584450}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.93, y: 6.19, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   efekt: {fileID: 3142526002448948140, guid: 209f34eb576b6ab4a9f943c185e2933f, type: 3}
-  ani: {fileID: 0}
+  ani: {fileID: 142481655}
   cses: {fileID: 1616765854777009332}
 --- !u!50 &5898130140666375319
 Rigidbody2D:
@@ -135,7 +135,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.4
+  m_GravityScale: 0.9
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

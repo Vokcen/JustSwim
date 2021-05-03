@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 819123652}
   - component: {fileID: 819123653}
   - component: {fileID: 2938270751736608334}
+  - component: {fileID: -2691170532648177114}
   m_Layer: 0
   m_Name: SpaceRock_Red
   m_TagString: "D\xFCsman"
@@ -214,7 +215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   efekt: {fileID: 1291306537076960595, guid: 06ad7bd52f66de745aae0e09bae89625, type: 3}
-  ani: {fileID: 0}
+  ani: {fileID: 819123652}
   cses: {fileID: 819123651}
 --- !u!50 &2938270751736608334
 Rigidbody2D:
@@ -237,6 +238,32 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &-2691170532648177114
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7465565891438229307}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.09, y: 2.09}
+    newSize: {x: 2.09, y: 2.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.09, y: 2.09}
+  m_EdgeRadius: 0
 --- !u!1001 &7945469742185369944
 PrefabInstance:
   m_ObjectHideFlags: 0

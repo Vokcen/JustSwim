@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   efekt: {fileID: 1314579348460820837, guid: f97e92047ec52fc47913ba704c0b424e, type: 3}
-  ani: {fileID: 0}
+  ani: {fileID: 32222927}
   cses: {fileID: 32222926}
 --- !u!50 &6257434837701827902
 Rigidbody2D:
@@ -231,7 +231,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.4
+  m_GravityScale: 0.7
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

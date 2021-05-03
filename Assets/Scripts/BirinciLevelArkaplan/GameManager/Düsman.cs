@@ -13,6 +13,7 @@ public class Düsman : MonoBehaviour
     {
         cses = GetComponent<AudioSource>();
         ani.enabled = false;
+        
         CamRipple = Camera.main.GetComponent<RipplePostProccessor>();
     }
 
@@ -65,7 +66,7 @@ public class Düsman : MonoBehaviour
     {
         ani.enabled = true;
         Instantiate(efekt, transform.position, Quaternion.identity);
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.5f);
         Destroy(gameObject);
 
     }
