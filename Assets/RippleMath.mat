@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: RippleMath
   m_Shader: {fileID: 4800000, guid: 54c4ecbd28e357a47bc1a0d0c6c00027, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -56,10 +56,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Amount: 8e-45
+    - _Amount: 0.029614994
     - _BumpScale: 1
-    - _CenterX: 1186.3634
-    - _CenterY: 1111.9093
+    - _CenterX: 333.30145
+    - _CenterY: 2158.8516
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0

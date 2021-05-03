@@ -9,13 +9,13 @@ public class Oyunkontrolü : MonoBehaviour
     public GameObject[] düsmanlar;
     int rand;
     int randposition;
-  public static float starttimebtwspawn = 1;
-    float timebtwSpawn;
+  public static float starttimebtwspawn = 2f;
+  public  float timebtwSpawn;
 
     void Start()
 
     {
-        timebtwSpawn = starttimebtwspawn;
+        timebtwSpawn = 2f;
 
 
     }

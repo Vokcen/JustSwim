@@ -9,13 +9,13 @@ public class OyunKontrol : MonoBehaviour
     public GameObject[] düsmanlar;
     int rand;
     int randposition;
-    public static float starttimebtwspawn = 3;
-    float timebtwSpawn;
+    public static float starttimebtwspawn = 45f;
+   public float timebtwSpawn;
 
     void Start()
 
     {
-        timebtwSpawn = starttimebtwspawn;
+        timebtwSpawn =45f;
 
 
     }
@@ -28,7 +28,8 @@ public class OyunKontrol : MonoBehaviour
 
 
     void FixedUpdate()
-    {
+    {       
+
         if (timebtwSpawn <= 0)
         {
             rand = UnityEngine.Random.Range(0, düsmanlar.Length);

@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class Engeller : MonoBehaviour
 {
+    OyunKontrol s = new OyunKontrol();
     [SerializeField]int yüksekSkor;
     [SerializeField] float  skor;
  
@@ -23,9 +24,10 @@ public class Engeller : MonoBehaviour
     private SesKontrol theAM;
     public Rigidbody2D rg;
    
+    
     void Start()
 
-    {
+    { 
        
         theAM = FindObjectOfType<SesKontrol>();
         Cam = Camera.main;
@@ -39,77 +41,74 @@ public class Engeller : MonoBehaviour
 
 
 
-
-
-    void FixedUpdate()
-    {
-        if (skor <=1)
+        void Update()
+        {
+        if (skor <= 1)
         {
             CamZoom.ZoomActive = 0;
-            OyunKontrol.starttimebtwspawn = 999;
-            Oyunkontrolü.starttimebtwspawn = 1f;
+            OyunKontrol.starttimebtwspawn = 50f;
+            Oyunkontrolü.starttimebtwspawn = 2f;
+       
 
         }
 
-        if (skor >= 30)
+        if (skor > 30)
         {
-
+         
             skor += Time.deltaTime * 1.5f;
             Oyunkontrolü.starttimebtwspawn = 0.7f;
+           
         }
-        if (skor >= 80)
+        if (skor > 60)
         {
+            OyunKontrol.starttimebtwspawn = 0.5f;
             CamZoom.ZoomActive = 1;
             ripple.friction();
-            OyunKontrol.starttimebtwspawn = 0.6f;
+          
+
             Oyunkontrolü.starttimebtwspawn = 999f;
 
         }
 
-        if (skor >= 120)
+        if (skor > 120)
         {
-            OyunKontrol.starttimebtwspawn = 0.4f;
+            OyunKontrol.starttimebtwspawn = 0.2f;
             skor += Time.deltaTime * 2;
-         
+
 
         }
-        if (skor >= 200)
+        if (skor > 180)
         {
-           
+            OyunKontrol.starttimebtwspawn = 999f;
+        }
+        if (skor >= 202)
+        {
+            WaweThree.starttimebtwspawn = 0.5f;
+            skor += Time.deltaTime *2.5f;
+            CamZoom.ZoomActive = 2;
             ripple.frictionA();
-          
-        
+
+
 
 
 
         }
-        if (skor >= 250)
+        if (skor >= 260)
         {
+                        WaweThree.starttimebtwspawn = 0.5f;
 
 
 
         }
         if (skor >= 300)
         {
-            OyunKontrol.starttimebtwspawn = 0.3f;
-
-            Oyunkontrolü.starttimebtwspawn = 6f;
+            WaweThree.starttimebtwspawn = 0.4f;
             skor += Time.deltaTime * 3;
 
         }
-        if (skor >= 350)
-        {
-
-           
-          
-
-        }
-    }
-        void Update()
-        {
 
 
-            if (Hak.kalanCan <= 0)
+        if (Hak.kalanCan <= 0)
             {
                 Time.timeScale = 0;
             }

@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameControl\Panel.cs" />
     <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameControl\SolKöse.cs" />
     <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameControl\SpawnKontrolA.cs" />
+    <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameControl\WaweThree.cs" />
     <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameManager\CamZoom.cs" />
     <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameManager\Duraklatma.cs" />
     <Compile Include="Assets\Scripts\BirinciLevelArkaplan\GameManager\Düsman.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Assets\Scripts\Shop\GameSharedUI.cs" />
     <Compile Include="Assets\Scripts\Shop\SceneControlButton.cs" />
     <Compile Include="Assets\Scripts\Shop\SceneController.cs" />
+    <Compile Include="Assets\Scripts\Speed.cs" />
     <Compile Include="Assets\Scripts\YenidenOynanıs.cs" />
     <Compile Include="Assets\Scripts\YuksekSkor\YuksekSkor.cs" />
     <Compile Include="Assets\Scripts\Çözünürlük.cs" />
